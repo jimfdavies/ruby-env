@@ -1,0 +1,18 @@
+[user]
+[http]
+[alias]
+        co = checkout
+        ci = commit
+        rb = rebase
+        s = status
+        b = branch
+
+        ull = !"git fetch origin -v; git fetch upstream -v; git merge upstream/master"
+        l = log --pretty=format:'%h : %an, %ar : %s' --graph
+        cam = commit -am
+[color]
+        ui = auto
+        branch = auto
+        diff = auto
+        interactive = auto
+        status = auto
