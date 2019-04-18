@@ -2,6 +2,7 @@ FROM ruby:latest
 
 MAINTAINER jimfdavies@gmail.com
 
-RUN alias "ll=ls -la"
+COPY .bashrc .gitconfig /root/
+WORKDIR /code
 
 CMD ["/bin/bash"]
