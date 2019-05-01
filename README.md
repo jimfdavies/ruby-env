@@ -30,6 +30,7 @@ alias rubyhere='docker pull jimfdavies/ruby-env:latest && docker run -it --rm -v
 ```
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
+git config --global credential.helper "cache --timeout=3600"
 git push
 # user
 # PAT
