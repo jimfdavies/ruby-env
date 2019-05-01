@@ -25,4 +25,12 @@ alias rubyhere='docker pull jimfdavies/ruby-env:latest && docker run -it --rm -v
 
 #### TODO
 - Ruby version as an option
-- Import git creds
+- Import/mount git creds (or we're stuck with the below)
+
+```
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+git push
+# user
+# PAT
+```
